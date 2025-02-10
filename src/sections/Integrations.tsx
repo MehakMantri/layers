@@ -60,7 +60,8 @@ export default function Integrations() {
             <IntegrationCard
             integrations={integrations} />
             <IntegrationCard
-            integrations={integrations.slice().reverse()} className="hidden md:flex" />
+            integrations={integrations.slice().reverse()}
+            reverse className="hidden md:flex" />
             </div>
             </div>
             </div>
